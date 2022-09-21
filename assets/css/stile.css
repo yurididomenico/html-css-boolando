@@ -151,10 +151,31 @@ footer a
 }
 /* hover header link */
 .header-genere a:hover,
-.footer-link-utili a:hover
+.footer-link-utili a:hover,
+footer > div h3:hover
 {
   text-decoration-line: underline;
-  font-weight: bold;
+}
+/* hover social */
+.fa-square-twitter:hover
+{
+  color: #30a2ef;
+}
+.fa-square-facebook:hover
+{
+  color: #5c7fce;
+}
+.fa-square-instagram:hover
+{
+  color: #e400d1;
+}
+.fa-square-pinterest:hover
+{
+  color: #c51828;
+}
+.fa-square-youtube:hover
+{
+  color: #fd000d;
 }
 
 /* |||||||||| AREA TEST |||||||||| */
