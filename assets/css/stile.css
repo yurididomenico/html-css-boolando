@@ -59,6 +59,10 @@ main
 {
   width: 100%;
 }
+.carta
+{
+  margin-bottom: 3vw;
+}
 .prezzo
 {
   font-weight: 700;
@@ -109,22 +113,26 @@ main
 {
   display: none;
 }
-.carta:hover .immagine-prima
+.carta-immagine:hover .immagine-prima
 {
   display: none;
 }
-.carta:hover .immagine-dopo
+.carta-immagine:hover .immagine-dopo
 {
   display: block;
 }
 
 /* hover cuore */
-
-
-/* |||||||||| AREA TEST |||||||||| */
 .cuoricino:hover
 {
   color: red;
+}
+
+/* |||||||||| AREA TEST |||||||||| */
+.header-genere a:hover
+{
+  text-decoration-line: underline;
+  font-weight: bold;
 }
 
 
