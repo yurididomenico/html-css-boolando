@@ -32,21 +32,41 @@ header
 }
 .header img
 {
-  width: 8rem;
+  width: 9rem;
   /* width: 7vw; */
 }
-.header-icone i
-{
-  margin: 0 0.2vw;
-}
-/* |||||||||| NAV |||||||||| */
-
-
 
 /* |||||||||| MAIN |||||||||| */
-
-
-
+main
+{
+  height: 100vh;
+}
+.main-carte div
+{
+  flex-basis: 32%;
+  margin: 3vw 0;
+}
+.main-carte img
+{
+  width: 100%;
+}
+.prezzo
+{
+  font-weight: 700;
+  margin-right: 0.1vw;
+}
+.sconto
+{
+  text-decoration-line: line-through;
+}
+.rosso
+{
+  color: red;
+}
+.prezzo::after
+{
+  content: '\20AC';
+}
 /* |||||||||| FOOTER |||||||||| */
 
 
