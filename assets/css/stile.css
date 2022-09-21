@@ -104,7 +104,11 @@ main
 }
 
 /* |||||||||| FOOTER |||||||||| */
-
+footer
+{
+  background-color: black;
+  color: white;
+}
 
 
 /* |||||||||| HOVER |||||||||| */
