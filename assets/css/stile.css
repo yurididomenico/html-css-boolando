@@ -17,12 +17,27 @@
 header
 {
   background-color: #fd6619;
+  color: white;
+}
+.header
+{
+  padding: 1vw 0;
 }
 
-.header div
+.header a
 {
-  background-color: orange;
-  border: 1px solid black;
+  margin: 0 0.3vw;
+  font-weight: 600;
+  color: white;
+}
+.header img
+{
+  width: 8rem;
+  /* width: 7vw; */
+}
+.header-icone i
+{
+  margin: 0 0.2vw;
 }
 /* |||||||||| NAV |||||||||| */
 
