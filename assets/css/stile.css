@@ -42,13 +42,10 @@ header
 }
 
 /* |||||||||| MAIN |||||||||| */
-main
-{
-  height: 100vh;
-}
+
 .main-carte
 {
-  margin: 7vw 0;
+  margin: 7vw 0 0;
 }
 .main-carte div
 {
@@ -108,8 +105,29 @@ footer
 {
   background-color: black;
   color: white;
+  padding: 1vw;
 }
-
+footer h3
+{
+  margin: 1vw 0;
+}
+footer a
+{
+  color: white;
+}
+.footer-link-utili a
+{
+  margin: 0 0.6vw 0 0;
+}
+.footer-social
+{
+  margin: 0.5vw 0 0 0;
+}
+.footer-social i
+{
+  font-size: 1.4rem;
+  margin: 0 0 0 0.3vw;
+}
 
 /* |||||||||| HOVER |||||||||| */
 /* hover carta */
@@ -131,13 +149,17 @@ footer
 {
   color: red;
 }
-
-/* |||||||||| AREA TEST |||||||||| */
-.header-genere a:hover
+/* hover header link */
+.header-genere a:hover,
+.footer-link-utili a:hover
 {
   text-decoration-line: underline;
   font-weight: bold;
 }
+
+/* |||||||||| AREA TEST |||||||||| */
+
+
 
 
 /* |||||||||| AREA TEST |||||||||| */
