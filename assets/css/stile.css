@@ -18,6 +18,10 @@ header
 {
   background-color: #fd6619;
   color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
 }
 .header
 {
@@ -41,10 +45,14 @@ main
 {
   height: 100vh;
 }
+.main-carte
+{
+  margin: 7vw 0;
+}
 .main-carte div
 {
   flex-basis: 32%;
-  margin: 3vw 0;
+  position: relative;
 }
 .main-carte img
 {
@@ -59,14 +67,37 @@ main
 {
   text-decoration-line: line-through;
 }
-.rosso
-{
-  color: red;
-}
+
 .prezzo::after
 {
   content: '\20AC';
 }
+
+.cuoricino
+{
+  position: absolute;
+  top: 0.5vw;
+  right: 0;
+  background-color: white;
+  padding: 0.8vw;
+}
+.cuoricino i
+{
+  font-size: 1.6rem;
+}
+.saldi
+{
+  position: absolute;
+  bottom: 3vw;
+  left: 0;
+}
+.box-sconto
+{
+  padding: 0.3vw;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 /* |||||||||| FOOTER |||||||||| */
 
 

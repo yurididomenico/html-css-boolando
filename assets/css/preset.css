@@ -158,6 +158,23 @@
 {
   font-size: 2rem;
 }
+.rosso
+{
+  color: red;
+}
+.bianco
+{
+  color: white;
+}
+
+.sfondo-rosso
+{
+  background-color: red;
+}
+.sfondo-verde
+{
+  background-color: green;
+}
 /* |||||||||| AREA SET |||||||||| */
 
 
