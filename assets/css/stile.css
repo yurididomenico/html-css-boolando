@@ -10,6 +10,10 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
+img
+{
+  display: block;
+}
 /* |||||||||| INIZIO |||||||||| */
 
 
@@ -22,10 +26,7 @@ header
   top: 0;
   width: 100vw;
   z-index: 1;
-}
-.header
-{
-  padding: 1vw 0;
+  box-shadow: 0 1px 5px black;
 }
 
 .header a
@@ -102,9 +103,29 @@ main
 
 
 
+/* |||||||||| HOVER |||||||||| */
+/* hover carta */
+.immagine-dopo
+{
+  display: none;
+}
+.carta:hover .immagine-prima
+{
+  display: none;
+}
+.carta:hover .immagine-dopo
+{
+  display: block;
+}
+
+/* hover cuore */
+
+
 /* |||||||||| AREA TEST |||||||||| */
-
-
+.cuoricino:hover
+{
+  color: red;
+}
 
 
 /* |||||||||| AREA TEST |||||||||| */
